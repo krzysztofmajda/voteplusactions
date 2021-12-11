@@ -20,4 +20,7 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@v1.6
+
         
